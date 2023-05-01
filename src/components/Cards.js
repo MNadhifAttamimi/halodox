@@ -2,10 +2,12 @@ import Card from 'react-bootstrap/Card';
 
 function Cards(props) {
   return (
-    <Card style={{textAlign:"center", boxSizing:"border-box"}}>
-      <Card.Img style={{ width: '75px', marginLeft:"60px", boxSizing:"border-box", paddingTop:"10px"}} variant="top" src={props.image} />
+    <Card style={{backgroundColor:"",textAlign:"center", boxSizing:"border-box", border: "1px solid rgba(134,134,134,1)"}}>
+      <Card>
+      <Card.Img style={{ width: '40%', marginLeft:"30%", boxSizing:"border-box", paddingTop:"10px",paddingBottom: "-120px"}} variant="top" src={props.image} />
+      </Card>
       <Card.Body>
-        <Card.Title style={{color:"black", fontSize:"15px", fontWeight:"600"}}>{props.alt}</Card.Title>
+        <Card.Title style={{color:"black", fontSize:"90%", fontWeight:"600"}}>{props.alt}</Card.Title>
       </Card.Body>
     </Card>
   );

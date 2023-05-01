@@ -15,7 +15,7 @@ const Navigasi = (props) => {
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll
+            navbarScrollx 
           >
             <Nav.Link href="#action1" className='px-3' style={{color: "black"}}>Beranda</Nav.Link>
             <Nav.Link href="#action2" className='px-3' style={{color: "black"}}>Artikel</Nav.Link>
